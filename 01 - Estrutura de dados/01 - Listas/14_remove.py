@@ -1,4 +1,4 @@
-linguagens = ["python", "js", "c", "java", "csharp"]
+linguagens = ["python", "js", "c", "java", "csharp", "c"]
 
 linguagens.remove("c")
 
