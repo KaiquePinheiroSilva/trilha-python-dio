@@ -4,6 +4,7 @@ class Estudante:
     def __init__(self, nome, matricula):
         self.nome = nome
         self.matricula = matricula
+        
 
     def __str__(self) -> str:
         return f"{self.nome} - {self.matricula} - {self.escola}"
@@ -20,4 +21,5 @@ mostrar_valores(aluno_1, aluno_2)
 
 Estudante.escola = "Python"
 aluno_3 = Estudante("Chappie", 3)
+aluno_2.escola = "Java"
 mostrar_valores(aluno_1, aluno_2, aluno_3)

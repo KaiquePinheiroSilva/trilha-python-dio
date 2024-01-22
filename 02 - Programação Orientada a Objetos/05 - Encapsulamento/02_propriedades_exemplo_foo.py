@@ -14,7 +14,6 @@ class Foo:
     def x(self):
         self._x = 0
 
-
 foo = Foo(10)
 print(foo.x)
 del foo.x
